@@ -1,0 +1,43 @@
+app-root { display: block; }
+.school-page { min-height: 100vh; background: #fff; color: #252a30; font-family: Arial, Helvetica, sans-serif; }
+.school-header { background: #19395f; color: #fff; border-bottom: 5px solid #b69a55; padding: 23px 0 20px; }
+.school-header .container { max-width: 1020px; }
+.institution { margin: 0 0 6px; color: #e4e9ef; font-size: 14px; }
+.school-header h1 { margin: 0; color: #fff; font-family: Georgia, 'Times New Roman', serif; font-size: 29px; font-weight: 600; }
+.course-code { margin: 7px 0 0; color: #e1d5b2; font-size: 13px; }
+.page-content { max-width: 1020px; padding-top: 26px; padding-bottom: 20px; }
+.intro-block { margin-bottom: 18px; }
+.intro-block h2 { margin: 0 0 6px; color: #1b3658; font-family: Georgia, 'Times New Roman', serif; font-size: 24px; font-weight: 600; }
+.intro-block p { margin: 0; color: #4c535b; font-size: 14px; }
+.school-card { margin-bottom: 20px; border: 1px solid #c8cdd3; border-radius: 2px; box-shadow: none; }
+.school-card .card-header { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 12px 16px; background: #f0f2f4; border-bottom: 1px solid #c8cdd3; }
+.card-header h3 { margin: 0; color: #263f5f; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; font-weight: 600; }
+.card-header p { margin: 3px 0 0; color: #626971; font-size: 12px; }
+.required-mark { color: #a32727; font-weight: 700; }
+.school-card .card-body { padding: 17px 16px 19px; }
+.form-label { margin-bottom: 5px; color: #303841; font-size: 13px; font-weight: 600; }
+.form-control { min-height: 38px; border-color: #aeb6bf; border-radius: 2px; color: #252a30; font-size: 14px; }
+.form-control:focus { border-color: #54779f; box-shadow: 0 0 0 .15rem #19395f22; }
+.form-control::placeholder { color: #8a9198; opacity: 1; }
+.form-text { margin-top: 4px; color: #606770; font-size: 12px; }
+.invalid-feedback { font-size: 12px; }
+.form-actions { margin-top: 18px; padding-top: 14px; border-top: 1px solid #d9dde1; }
+.btn-primary { padding: 8px 17px; border-color: #19395f; border-radius: 2px; background: #19395f; font-size: 14px; }
+.btn-primary:hover,.btn-primary:focus { border-color: #122a48; background: #122a48; }
+.alert { position: relative; display: flex; align-items: center; gap: 5px; border-radius: 2px; padding: 12px 42px 12px 14px; font-size: 14px; }
+.alert .btn-close { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); }
+.student-list .card-header { align-items: center; }
+.student-count { color: #505860; font-size: 12px; white-space: nowrap; }
+.student-list table { font-size: 13px; }
+.student-list thead th { color: #303841; font-weight: 600; }
+.student-list tbody td { color: #333a41; }
+.school-footer { padding: 1px 0 9px; color: #68717a; font-size: 12px; }
+@media (max-width: 576px) {
+  .school-header { padding: 18px 0 16px; }
+  .school-header h1 { font-size: 23px; }
+  .page-content { padding-top: 20px; }
+  .intro-block h2 { font-size: 21px; }
+  .school-card .card-header { padding: 10px 12px; }
+  .school-card .card-body { padding: 14px 12px 16px; }
+  .student-list table { min-width: 620px; }
+}
