@@ -18,3 +18,7 @@ npm test -- --watch=false
 ## Test result
 
 ![Age calculation test results](./test-results.png)
+
+## UI Preview
+
+[![Student registration interface](./public/class-registration-ui.png)](./public/class-registration-ui.png)
